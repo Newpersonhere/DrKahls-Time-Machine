@@ -284,7 +284,7 @@ function download() {
                     item["Coin2Collected"] = true
                     item["Coin3Collected"] = true
                     item["Coin4Collected"] = true
-                    item["Coin5Collected"] = false
+                    item["Coin5Collected"] = true
 
                 } else if (document.getElementById(`${item["level"]}`).value == "3") {
 
@@ -292,34 +292,34 @@ function download() {
                     item["Coin1Collected"] = true
                     item["Coin2Collected"] = true
                     item["Coin3Collected"] = true
-                    item["Coin4Collected"] = false
-                    item["Coin5Collected"] = false
+                    item["Coin4Collected"] = true
+                    item["Coin5Collected"] = true
 
                 } else if (document.getElementById(`${item["level"]}`).value == "2") {
 
 
                     item["Coin1Collected"] = true
                     item["Coin2Collected"] = true
-                    item["Coin3Collected"] = false
-                    item["Coin4Collected"] = false
-                    item["Coin5Collected"] = false
+                    item["Coin3Collected"] = true
+                    item["Coin4Collected"] = true
+                    item["Coin5Collected"] = true
 
                 } else if (document.getElementById(`${item["level"]}`).value == "1") {
 
 
                     item["Coin1Collected"] = true
-                    item["Coin2Collected"] = false
-                    item["Coin3Collected"] = false
-                    item["Coin4Collected"] = false
-                    item["Coin5Collected"] = false
+                    item["Coin2Collected"] = true
+                    item["Coin3Collected"] = true
+                    item["Coin4Collected"] = true
+                    item["Coin5Collected"] = true
 
                 } else if (document.getElementById(`${item["level"]}`).value == "0") {
 
-                    item["Coin1Collected"] = false
-                    item["Coin2Collected"] = false
-                    item["Coin3Collected"] = false
-                    item["Coin4Collected"] = false
-                    item["Coin5Collected"] = false
+                    item["Coin1Collected"] = true
+                    item["Coin2Collected"] = true
+                    item["Coin3Collected"] = true
+                    item["Coin4Collected"] = true
+                    item["Coin5Collected"] = true
 
                 }
 
@@ -557,7 +557,7 @@ function updateJson() {
                     item["Coin2Collected"] = true
                     item["Coin3Collected"] = true
                     item["Coin4Collected"] = true
-                    item["Coin5Collected"] = false
+                    item["Coin5Collected"] = true
 
                 } else if (document.getElementById(`${item["level"]}`).value == "3") {
 
@@ -565,34 +565,34 @@ function updateJson() {
                     item["Coin1Collected"] = true
                     item["Coin2Collected"] = true
                     item["Coin3Collected"] = true
-                    item["Coin4Collected"] = false
-                    item["Coin5Collected"] = false
+                    item["Coin4Collected"] = true
+                    item["Coin5Collected"] = true
 
                 } else if (document.getElementById(`${item["level"]}`).value == "2") {
 
 
                     item["Coin1Collected"] = true
                     item["Coin2Collected"] = true
-                    item["Coin3Collected"] = false
-                    item["Coin4Collected"] = false
-                    item["Coin5Collected"] = false
+                    item["Coin3Collected"] = true
+                    item["Coin4Collected"] = true
+                    item["Coin5Collected"] = true
 
                 } else if (document.getElementById(`${item["level"]}`).value == "1") {
 
 
                     item["Coin1Collected"] = true
-                    item["Coin2Collected"] = false
-                    item["Coin3Collected"] = false
-                    item["Coin4Collected"] = false
-                    item["Coin5Collected"] = false
+                    item["Coin2Collected"] = true
+                    item["Coin3Collected"] = true
+                    item["Coin4Collected"] = true
+                    item["Coin5Collected"] = true
 
                 } else if (document.getElementById(`${item["level"]}`).value == "0") {
 
-                    item["Coin1Collected"] = false
-                    item["Coin2Collected"] = false
-                    item["Coin3Collected"] = false
-                    item["Coin4Collected"] = false
-                    item["Coin5Collected"] = false
+                    item["Coin1Collected"] = true
+                    item["Coin2Collected"] = true
+                    item["Coin3Collected"] = true
+                    item["Coin4Collected"] = true
+                    item["Coin5Collected"] = true
 
                 }
 
